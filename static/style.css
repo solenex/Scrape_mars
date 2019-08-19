@@ -1,0 +1,83 @@
+/*
+ * Fixed Position: Anchors element to the browser
+ */
+
+body {
+ background-color: #ff9999;
+}
+
+h1 {
+  font-weight: bolder; 
+ }
+
+h3 {
+  font-weight: bolder; 
+ }
+
+.btn-primary {
+	background-color: #9933ff  ;
+	border-color: #9933ff  ;
+}
+
+.box {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+
+.col-md-12 {
+  background-color: white;
+  border: 15px solid gainsboro;
+ }
+
+.col-md-8 {
+  background-color: white;
+  border: 15px solid gainsboro;
+ }
+
+.col-md-4 {
+  background-color: white;
+  border: 15px solid gainsboro;
+ /* padding: 5px; */
+
+}
+
+.container-fluid {
+  padding: 2%;  
+}
+
+
+.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: white;
+}
+table.blueTable thead {
+  background : #a1887f ;
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
